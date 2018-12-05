@@ -41,7 +41,8 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
-                android:text="\???"
+                android:onClick="clicked"
+                android:text="A"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -52,8 +53,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="A"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -64,8 +66,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="B"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -76,8 +79,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="B"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -95,7 +99,8 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
-                android:text="\???"
+                android:onClick="clicked"
+                android:text="C"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -106,8 +111,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="C"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -118,8 +124,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="D"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -130,8 +137,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="D"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -149,7 +157,8 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
-                android:text="\???"
+                android:onClick="clicked"
+                android:text="E"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -160,8 +169,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="E"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -172,8 +182,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="F"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -184,8 +195,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="F"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -203,7 +215,8 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
-                android:text="\???"
+                android:onClick="clicked"
+                android:text="G"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -214,8 +227,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="G"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -226,8 +240,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="H"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -238,8 +253,9 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons"
+                android:onClick="clicked"
                 android:padding="1dp"
-                android:text="\???"
+                android:text="H"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -255,10 +271,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/editText3"
+        android:text="Correct"
+        app:layout_constraintEnd_toEndOf="@+id/correct_tb"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/correct_tb" />
 
     <TextView
         android:id="@+id/textView2"
@@ -269,13 +285,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="TextView"
+        android:text="Wrong"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editText5"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintStart_toEndOf="@+id/timer"
+        app:layout_constraintTop_toBottomOf="@+id/wrong_tb" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/correct_tb"
         android:layout_width="136dp"
         android:layout_height="45dp"
         android:layout_marginTop="8dp"
@@ -285,12 +301,12 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="EditText"
-        app:layout_constraintEnd_toStartOf="@+id/editText5"
+        android:text="0"
+        app:layout_constraintEnd_toStartOf="@+id/timer"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/wrong_tb"
         android:layout_width="136dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -300,12 +316,12 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="EditText"
-        app:layout_constraintStart_toEndOf="@+id/editText5"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/timer"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/timer"
         android:layout_width="79dp"
         android:layout_height="53dp"
         android:layout_marginStart="8dp"
@@ -317,7 +333,7 @@
         android:ems="10"
         android:gravity="center_horizontal"
         android:inputType="textPersonName"
-        android:text="EditText"
+        android:text="3"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
