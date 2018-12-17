@@ -23,7 +23,7 @@ public class FirstActivity extends AppCompatActivity {
 
     }
     public void gameStart(View v){
-        Intent intent = new Intent(this,second.class);
+        Intent intent = new Intent(this,Third.class);
         startActivity(intent);
         //finish();
     }

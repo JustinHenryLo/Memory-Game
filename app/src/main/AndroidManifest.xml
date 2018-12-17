@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".second"></activity>
+        <activity android:name=".second" />
+        <activity
+            android:name=".Third"
+            android:label="@string/title_activity_third"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
